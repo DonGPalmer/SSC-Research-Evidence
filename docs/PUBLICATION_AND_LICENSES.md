@@ -1,9 +1,9 @@
 # Publication, access and licensing policy
 
-**Current state: public repository, no selected license, no published underlying WN notes.** Publicly readable does not mean permission to redistribute or adapt copyright-protected contents. The author will choose any licenses before a substantive release; do not assume CC BY or MIT applies yet.
+**Licence.** From release v1.0.0, the author's research notes and documentation in this repository are licensed under CC BY 4.0 (see [LICENSE](../LICENSE)). Any software added later will carry its own licence (MIT is intended) and will be marked as such.
 
-Separate treatment is required for (a) original research prose and figures, (b) source code and verification scripts, (c) third-party articles/figures/data, and (d) the commercial Book 1 and Technical Companion manuscripts. A potential arrangement is CC BY 4.0 for author-owned evidence prose and MIT for author-owned code, **subject to explicit author approval**. Third-party materials retain their own licenses; rights must be checked before inclusion. Book manuscripts are excluded unless explicitly agreed with the publisher and author.
+**Not covered.** Third-party articles, figures and data are not republished here; they are cited by reference and keep their own terms. The commercial book manuscripts (*The Forgotten Coordinate* and its Technical Companion) are not part of this repository.
 
-Before public release, check each source for publishing permissions, personal data, credentials, links to private workspaces, AI disclosure, citation accuracy, unresolved mathematical errors and the relationship between superseded and corrected versions. Preserve a private master provenance index; publish only locators that actually resolve for outside readers.
+**What is published.** The notes are public editions of working records, not the working files themselves. Internal folder paths, private identifiers and workflow lines are removed; scientific content is not altered; later corrections are flagged. The working files are kept by the author and identified by content hash in [tc/ch15/PREPARATION.md](../tc/ch15/PREPARATION.md).
 
-No promise of free access to a source should appear in a published book until the evidence is genuinely available under the cited link or an agreed access procedure.
+**Access statements.** A book or paper should state that a note is available here only once the release it names exists, and should give that release's address.

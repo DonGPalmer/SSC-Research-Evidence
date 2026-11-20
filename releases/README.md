@@ -1,5 +1,5 @@
 # Release records
 
-No governed evidence releases or DOIs exist for this repository yet.
+Each tagged release has a record here giving the tag, the notes added, revised or withdrawn, the scientific caveats, the author's approval, the licence and any archival DOI actually issued. The commit is the one the tag points to. Historical release records are not edited to conceal corrections.
 
-Each future release should record the release tag and commit SHA, WN sources added/revised/withdrawn, their checksums, the scientific caveats, the author approval record, applicable licenses, and any archival DOI actually issued. Never edit historical release records to conceal corrections.
+- [v1.0.0](v1.0.0.md): first public release of the Chapter 15 evidence notes.

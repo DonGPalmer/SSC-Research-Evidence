@@ -1,13 +1,9 @@
 # Citation and version rules
 
-## Current catalogue
+Cite (1) the Technical Companion result identifier `Un` where relevant, (2) the evidence number `WN-nn`, (3) the tagged release, and, for a frozen calculation, (4) a link to the file at that tag or commit, or an archived DOI when one exists. Do not cite the moving `main` branch as the identity of a frozen calculation.
 
-The repository currently contains no released WN source files. It is therefore **not** an evidentiary substitute for the unpublished TC Chapter 15 notes. Until release, refer to a result as a *provisional result discussed in the Technical Companion* and refer to the [WN catalogue](../registers/TC_CH15_WN_catalogue_v0.md) only as a catalogue.
+**Format:** Palmer, D. G., *SSC Research Evidence*, release `v1.0.0`, note WN-nn (supporting Technical Companion Chapter 15 result Un), https://github.com/DonGPalmer/SSC-Research-Evidence.
 
-## After a governed evidence release
+A matching SHA-256 (listed in [tc/ch15/README.md](../tc/ch15/README.md)) shows that a copy is the released edition; it does not show that the content is correct.
 
-Cite (1) the Technical Companion result identifier `Uxx`, (2) the relevant evidence note `WN-xx`, (3) the exact tagged GitHub release, and (4) a specific immutable commit/file link or archived DOI when one exists. Do not cite the moving `main` branch as the identity of a frozen calculation.
-
-**Illustrative format, not a real release or DOI:** Palmer, D. G., *SSC Research Evidence*, evidence WN-XX supporting TC Chapter 15 result UXX, release `vX.Y.Z`, commit `<full SHA>`, repository: https://github.com/DonGPalmer/SSC-Research-Evidence.
-
-When an evidence item is revised, keep the old release accessible and record the correction and its effect on previous results. A DOI must not be printed until a deposit actually exists.
+When a note is revised, the earlier release stays available, and the new release records the correction and its effect on earlier results. No DOI is cited until a deposit actually exists.

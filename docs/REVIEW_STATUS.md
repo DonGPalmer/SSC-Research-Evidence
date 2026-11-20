@@ -1,15 +1,13 @@
-# Evidence status and review vocabulary
+# Review status vocabulary
 
-Evidence identifiers `WN-01` through `WN-44` identify working notes; `WN-26R` is a character-repaired reading, not a new result. `U1` through `U18` identify provisional results discussed in TC Chapter 15.
+Evidence numbers `WN-01` to `WN-44` identify the released notes; `U1` to `U18` identify the provisional results discussed in Technical Companion Chapter 15. Each note's role for a result (derivation, check, counter-result, correction, decision, proposal, analysis or internal review) is given in the [evidence register](../tc/ch15/README.md). A note listed for a result does not necessarily support it.
 
-Roles include: **derivation**, **check**, **counter-result**, **correction**, **decision**, **proposal**, **analysis**, and **internal AI-assisted review**. A decision records what was retained or held, and a counter-result may limit or refute an earlier conjecture. Never treat every note listed for a result as supporting that result.
+Review levels are kept distinct:
 
-Review levels must be distinguished explicitly:
+- **Unreviewed AI-assisted research:** an exploratory calculation or note, not independently verified.
+- **Separate-session AI check or revision:** a check by another AI session within the programme; not external specialist or peer review.
+- **Verified computation:** only when a defined procedure, environment, inputs and a reviewer-signed result exist.
+- **External specialist review:** only when an independent human specialist assessment has actually occurred and its scope is recorded.
+- **Published scientific finding:** only after an identifiable public publication; publication does not itself guarantee correctness.
 
-- **Unreviewed AI-assisted research:** exploratory calculation or note, not independently verified.
-- **Separate-session AI check or revision:** not external specialist or peer review.
-- **Verified computation:** only when a defined procedure, environment, inputs, and a reviewer-signed result exist.
-- **External specialist review:** only when independent human specialist assessment has actually occurred and its scope is recorded.
-- **Published scientific finding:** only after an appropriately identifiable public publication; publication does not itself guarantee correctness.
-
-The current public inventory is only a catalogue; all WN source files are **pending publication**. The underlying result status must never be silently strengthened by copying it into GitHub.
+No note in release v1.0.0 has had external specialist review. A note's status is never strengthened by copying it into this repository.
